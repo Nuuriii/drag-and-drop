@@ -37,3 +37,7 @@ body {
    background-size: cover;
    background-position: center;
 }
+
+.box.hovered {
+   border: 2px dashed black;
+}
