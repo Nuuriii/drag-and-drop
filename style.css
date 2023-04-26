@@ -1,0 +1,39 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   background-color: orange;
+}
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 10px;
+   width: 420px;
+   justify-content: center;
+}
+
+.container .box {
+   background-color: rgba(99, 189, 207, 0.825);
+   position: relative;
+   height: 160px;
+   width: 160px;
+   border-radius: 12px;
+   border: 2px solid black;
+   overflow: hidden;
+}
+
+.box .image {
+   background-image: url("/image/cat.png");
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+   background-position: center;
+}
